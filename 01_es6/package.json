@@ -1,0 +1,25 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "11-transpile.js",
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "webpack": "^1.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/"
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss'
+
+*
+    box-sizing: border-box
+
+HTML, BODY
+    min-width: 100%
+    min-height: 100%
+    margin: 0
+    padding: 0
+
+BODY
+    background: #ececec
+    transition: all 1s
+
+.counter
+    display: inline-block
+    width: 50px
+    text-align: center
+    font-size: 18px
+    font-weight: bold
+    transition: all 1s
+
+    &._red
+        color: red
+
+BUTTON
+    outline: none !important
+
+.todos
+    padding: 20px
+
+    &__form
+        width: 500px
+

@@ -1,0 +1,8 @@
+/.idea
+/01_es6/.idea
+/02_react/.idea
+/02_react/node_modules
+/02_react/public
+/03_redux/.idea
+/03_redux/node_modules
+/03_redux/public
