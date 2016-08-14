@@ -3,7 +3,6 @@ import { Counter } from '../../../lib/Counter/Counter.jsx';
 import React from 'react';
 import chai, { assert } from 'chai';
 import { shallow } from 'enzyme';
-import sinon from 'sinon';
 
 import spies from 'chai-spies';
 
